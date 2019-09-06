@@ -1,0 +1,16 @@
+D:\项目\NopTest\MyNop\Nop.Core\bin\Debug\netcoreapp2.2\Nop.Core.deps.json
+D:\项目\NopTest\MyNop\Nop.Core\bin\Debug\netcoreapp2.2\Nop.Core.dll
+D:\项目\NopTest\MyNop\Nop.Core\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
+D:\项目\NopTest\MyNop\Nop.Core\bin\Debug\netcoreapp2.2\Newtonsoft.Json.xml
+D:\项目\NopTest\MyNop\Nop.Core\obj\Debug\netcoreapp2.2\Nop.Core.csproj.CoreCompileInputs.cache
+D:\项目\NopTest\MyNop\Nop.Core\obj\Debug\netcoreapp2.2\Nop.Core.AssemblyInfoInputs.cache
+D:\项目\NopTest\MyNop\Nop.Core\obj\Debug\netcoreapp2.2\Nop.Core.AssemblyInfo.cs
+D:\项目\NopTest\MyNop\Nop.Core\obj\Debug\netcoreapp2.2\Nop.Core.csproj.CopyComplete
+D:\项目\NopTest\MyNop\Nop.Core\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\项目\NopTest\MyNop\Nop.Core\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\项目\NopTest\MyNop\Nop.Core\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\项目\NopTest\MyNop\Nop.Core\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\项目\NopTest\MyNop\Nop.Core\bin\Debug\netcoreapp2.2\Nop.Core.pdb
+D:\项目\NopTest\MyNop\Nop.Core\obj\Debug\netcoreapp2.2\Nop.Core.dll
+D:\项目\NopTest\MyNop\Nop.Core\obj\Debug\netcoreapp2.2\Nop.Core.pdb
+D:\项目\NopTest\MyNop\Nop.Core\obj\Debug\netcoreapp2.2\Nop.Core.csprojAssemblyReference.cache

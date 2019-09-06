@@ -1,0 +1,16 @@
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\bin\Debug\netcoreapp2.2\MyNop.Web.FrameWork.deps.json
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\bin\Debug\netcoreapp2.2\MyNop.Web.FrameWork.dll
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\obj\Debug\netcoreapp2.2\MyNop.Web.FrameWork.csprojAssemblyReference.cache
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\obj\Debug\netcoreapp2.2\MyNop.Web.FrameWork.csproj.CoreCompileInputs.cache
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\obj\Debug\netcoreapp2.2\MyNop.Web.FrameWork.AssemblyInfoInputs.cache
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\obj\Debug\netcoreapp2.2\MyNop.Web.FrameWork.AssemblyInfo.cs
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\obj\Debug\netcoreapp2.2\MyNop.Web.FrameWork.csproj.CopyComplete
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\bin\Debug\netcoreapp2.2\Nop.Core.dll
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\bin\Debug\netcoreapp2.2\Nop.Services.dll
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\bin\Debug\netcoreapp2.2\MyNop.Web.FrameWork.pdb
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\bin\Debug\netcoreapp2.2\Nop.Core.pdb
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\bin\Debug\netcoreapp2.2\Nop.Services.pdb
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\obj\Debug\netcoreapp2.2\MyNop.Web.FrameWork.dll
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\obj\Debug\netcoreapp2.2\MyNop.Web.FrameWork.pdb
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\bin\Debug\netcoreapp2.2\Nop.Data.dll
+D:\项目\NopTest\MyNop\MyNop.Web.FrameWork\bin\Debug\netcoreapp2.2\Nop.Data.pdb
