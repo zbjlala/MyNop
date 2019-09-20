@@ -27,8 +27,14 @@ namespace MyNop.Infrastructure
             //reorder routes so the most used ones are on top. It can improve performance
 
             //areas
-            routeBuilder.MapRoute(name: "areaRoute", template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+            routeBuilder.MapRoute(
+                name: "areaRoute",
+                template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                );
+            routeBuilder.MapLocalizedRoute("Test", "/test",
+                new { controller = "Home", action = "Test" });
 
+           
             //home page
             routeBuilder.MapLocalizedRoute("Homepage", "",
                 new { controller = "Home", action = "Index" });
