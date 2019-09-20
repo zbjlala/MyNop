@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyNop.Web.FrameWork", "MyNo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Services", "Nop.Services\Nop.Services.csproj", "{C57554D6-EADF-46B3-A561-A35650E26580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Data", "Nop.Data\Nop.Data.csproj", "{9A85B507-2B3A-4EDD-AD26-436C7B0A1D86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Data", "Nop.Data\Nop.Data.csproj", "{9A85B507-2B3A-4EDD-AD26-436C7B0A1D86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{745BA2EE-BD3D-4633-8007-0DB2557ADA30}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MyNop.Web.FrameWork.Infrastructure.Extensions;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace MyNop
 {
@@ -37,7 +39,25 @@ namespace MyNop
 
 
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddSwaggerGen(c =>
+            {
+                // c.SwaggerDoc("v1", new Info { Title = "DemoAPI", Version = "v1" });
+                c.SwaggerDoc("v1",
+                    new Info
+                    {
+                        Title = "lucky_app - V1.0",
+                        Version = "v1",
+                        Description = "³õÊ¼°æ¿ò¼Ü1.0",
+                        TermsOfService = "Knock yourself out",
+                        Contact = new Contact { Name = "zbj test", Email = "zhangbaoj@chanjet.com" },
+                        License = new License { Name = "chanjet.com", Url = "http://www.chanjet.com/" }
+                    });
+                var filePath = Path.Combine(System.AppContext.BaseDirectory, "MyNop.xml");
+                c.IncludeXmlComments(filePath);
+            });
+
             return services.ConfigureApplicationServices(_configuration, _hostingEnvironment);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +79,14 @@ namespace MyNop
             //app.UseCookiePolicy();
 
             //app.UseMvc();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "lucky_app V1.0"); });
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                                     name: "default",
+                                     template: "swagger");
+            });
             app.ConfigureRequestPipeline();
         }
     }

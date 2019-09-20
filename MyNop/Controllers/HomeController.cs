@@ -6,11 +6,24 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MyNop.Controllers
 {
-    public class HomeController : Controller
+    [ApiController]
+    [Route("api/[controller]/[action]")]
+    public class HomeController : ControllerBase
     {
-        public IActionResult Index()
+        
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
+        [HttpGet]
+        public string Index()
         {
-            return View();
+            return "index";
+        }
+        [HttpGet]
+        public string Test()
+        {
+            return "1111";
         }
     }
 }
